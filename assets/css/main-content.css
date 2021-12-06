@@ -1,0 +1,49 @@
+/* Comando utilizado para puxar os ícones presentes no icones.ttf, arquivo baixado da Alura com origem do Font Awesome */
+
+@font-face {
+    font-family: 'icones';
+    src: url(../fonts/icones.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --verde-base:#69B99D;
+    --verde-escuro:#0F241D;
+    --verde-claro:#CCF4E6;
+}
+
+
+body {
+    font-family: 'icones', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    width: 100vw;
+}
+
+.cabecalho__titulo{
+    color: var(--verde-base);
+    font-family: 'Popins', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    margin-left: 24px;
+}
+
+.beauty, .ponto {
+    color: var(--verde-escuro);
+}
+
+.cabecalho__botao {
+    margin-right: 24px;
+}
+
+.cabecalho .cabecalho__botao i::before{
+    content: "\e904";
+    font-size: 30px;
+    color: var(--verde-base);
+}
