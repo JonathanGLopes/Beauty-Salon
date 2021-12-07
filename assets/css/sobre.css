@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --verde-base:#69B99D;
+    --verde-escuro:#0F241D;
+    --verde-claro:#CCF4E6;
+    --cinza: #767676;
+}
+
+.imagem-sobre {
+   margin-bottom: 32px;
+}
+
+.titulo-sobre {
+    font-family: 'Popins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: var(--verde-escuro);
+    margin-bottom: 16px;
+    margin-left: 20px;
+}
+
+.descricao-sobre {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 26px;
+    color: var(--cinza);
+    margin-bottom: 80px;
+    margin-left: 24px;
+    margin-right: 24px;
+}

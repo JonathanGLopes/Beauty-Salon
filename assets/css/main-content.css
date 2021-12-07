@@ -89,11 +89,27 @@ body {
     justify-content: center;
     flex-direction: column;
     margin-top: 4rem;
+    margin-bottom: 60px;
 }
 
 .imagem-principal {
     margin-bottom: 32px;
+    margin-right: 47px;
 }
+
+/*
+.imagem-principal::before {
+    content: '';
+    background: #ccf4e6;
+    height: 230px;
+    width: 340px;
+    position: absolute;
+    top: -6.8%;
+    left: -20.2%;
+    z-index: 2;
+    border-radius: 4px;
+}
+*/
 
 .titulo-principal {
     font-size: 30px;
