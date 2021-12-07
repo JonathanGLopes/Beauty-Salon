@@ -17,6 +17,8 @@
 
 body {
     font-family: 'icones', sans-serif;
+    width: 375px;
+    height: 812px;
 }
 
 .cabecalho {
@@ -89,7 +91,7 @@ body {
     justify-content: center;
     flex-direction: column;
     margin-top: 4rem;
-    margin-bottom: 60px;
+    margin-bottom: 5.5rem;
 }
 
 .imagem-principal {
