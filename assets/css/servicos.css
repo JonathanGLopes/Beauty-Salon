@@ -7,19 +7,21 @@
     --cinza: #767676;
 }
 
+
 .wrap-servicos {
     padding-left: 56px;
     padding-right: 56px;
+    padding-bottom: 80px;
     text-align: center;
-    margin-top: 100px;
 }
 
 .titulo-servicos {
     font-family: 'Popins', sans-serif;
+    font-size: 30px;
     font-weight: 700;
-    font-size: 24px;
-    text-align: center;
-    color: var(--verde-escuro);
+    color: #000;
+    margin-bottom: 16px;
+    margin-left: 24px;
 }
 
 .descricao-servicos {
@@ -27,6 +29,36 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    color: var(--cinza);
+    margin-left: 24px;
+    width: 327px;
+    height: 104px;
+}
+
+.descricao-cor {
+    color: var(--verde-base);
+    font-weight: 700;
+}
+
+.titulo-terapia, .titulo-cortes, .titulo-tratamentos {
+    font-family: 'Popins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color:var(--verde-escuro);
+    margin-bottom: 12px;
+}
+
+.descricao-terapia, .descricao-cortes, .descricao-tratamentos {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
     text-align: center;
     color: var(--cinza);
+    margin-bottom: 58px;
+}
+
+.imagem-terapia, .imagem-cortes, .imagem-tratamentos {
+    margin-top: 100px;
 }
