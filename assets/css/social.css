@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+.social-media {
+    padding: 64px 100px 64px 24px;
+    background-color: var(--verde-base);
+}
+
+.titulo-social {
+    font-size: 21px;
+    line-height: 31px;
+    font-family: 'Popins', sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.beauty, .ponto {
+    color: var(--verde-escuro);
+}
+
+.social-img {
+    margin-top: 32px;
+}
+
+.direitos-social {
+    color: white;
+}
+
+.img-social {
+    margin-right: 20px;
+}
