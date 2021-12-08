@@ -1,16 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-:root {
-    --verde-base:#69B99D;
-    --verde-escuro:#0F241D;
-    --verde-claro:#CCF4E6;
-    --cinza: #767676;
-}
-
 
 .wrap-servicos {
-    padding-left: 56px;
-    padding-right: 56px;
     padding-bottom: 80px;
     text-align: center;
 }
@@ -40,6 +31,7 @@
     font-weight: 700;
 }
 
+
 .titulo-terapia, .titulo-cortes, .titulo-tratamentos {
     font-family: 'Popins', sans-serif;
     font-size: 24px;
@@ -61,4 +53,34 @@
 
 .imagem-terapia, .imagem-cortes, .imagem-tratamentos {
     margin-top: 100px;
+}
+
+.terapia {
+    width: 372px;
+    height: 372px;
+    border-bottom: 4px solid var(--verde-base);
+}
+
+.terapia .imagem-terapia {
+    width: 80px;
+}
+
+.cortes {
+    width: 372px;
+    height: 372px;
+    border-bottom: 4px solid var(--verde-base);
+}
+
+.cortes .imagem-cortes {
+    width: 80px;
+}
+
+.tratamento {
+    width: 372px;
+    height: 372px;
+    border-bottom: 4px solid var(--verde-base);
+}
+
+.tratamento .imagem-tratamentos {
+    width: 80px;
 }

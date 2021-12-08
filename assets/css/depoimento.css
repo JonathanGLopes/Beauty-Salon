@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+.titulo-depoimentos {
+    font-family: 'Popins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #000;
+    margin-left: 24px;
+    margin-bottom: 65px;
+    width: 259px;
+}
+
+.descricao-depoimento {
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--verde-escuro);
+    width: 263px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagem-depoimento {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.nome-depoimento {
+    margin-left: 10px;
+}
+
+.ponto-depoimento {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+}
