@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
+.depoimentos {
+    padding-bottom: 120px;
+}
+
 .titulo-depoimentos {
     font-family: 'Popins', sans-serif;
     font-size: 30px;
