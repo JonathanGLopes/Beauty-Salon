@@ -38,3 +38,37 @@
     margin-left: 24px;
     margin-right: 24px;
 }
+
+/*Responsivo*/
+
+@media screen and (min-width: 700px) {
+    body {
+        width: 768px;
+        height: 1024px;
+    }
+
+    .sobre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagem-sobre {
+        width: 500px;
+    }
+
+    .sobre::before {
+        content: '';
+        background: #c4fae7;
+        height: 380px;
+        width: 500px;
+        position: absolute;
+        top: 46.4rem;
+        right: 5rem;
+        z-index: -1;
+        border-radius: 4px;
+    }
+}
+
+/* Responsivo Desktop */

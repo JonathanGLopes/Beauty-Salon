@@ -43,3 +43,57 @@
     text-align: center;
     color: #000;
 }
+
+.depoimento2 {
+    display: none;
+}
+
+.aspas-depo{
+    width: 20px;
+}
+
+/* Responsivo */
+
+@media screen and (min-width: 700px) {
+
+    .titulo-depoimentos {
+        width: 400px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .depoimentos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .depoimento2 {
+        display: flex;
+        flex-direction: column;
+        width: 263px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 26px;
+        margin-top: 50px;
+    }
+
+    .descricao-depoimento2 {
+        margin-bottom: 20px;
+    }
+    
+    .depoimento1 {
+        display: flex;
+        flex-direction: column;
+        width: 263px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 26px;
+        margin-top: 50px;
+    }
+
+    .imagem-depoimento {
+        margin-left: 0;
+    }
+}
+
+/* Responsivo Desktop */

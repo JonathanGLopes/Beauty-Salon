@@ -146,3 +146,39 @@ body {
     border-radius: 4px;
     color: white;
 }
+
+/* Responsivo*/ 
+
+@media screen and (min-width: 700px) {
+    body {
+        width: 768px;
+        height: 1024px;
+    }
+
+    .pagina-principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagem-principal {
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+
+    .pagina-principal::before {
+        content: '';
+        background: #bee2d6;
+        height: 380px;
+        width: 500px;
+        position: absolute;
+        top: 100px;
+        left: 180px;
+        z-index: 1;
+        border-radius: 4px;
+    }
+}
+
+/* Responsivo Desktop */

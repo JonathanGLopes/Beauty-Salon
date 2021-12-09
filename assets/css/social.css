@@ -30,3 +30,24 @@
 .img-social {
     margin-right: 20px;
 }
+
+/* Responsivo */
+
+@media screen and (min-width: 700px) {
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo-social {
+        font-size: 30px;
+    }
+
+    .direitos-social {
+        font-size: 20px;
+    }
+}
+
+/* Responsivo Desktop */

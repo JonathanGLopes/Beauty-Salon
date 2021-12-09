@@ -84,3 +84,42 @@
 .tratamento .imagem-tratamentos {
     width: 80px;
 }
+
+/* Responsivo*/
+
+@media screen and (min-width: 700px) {
+    body {
+        width: 768px;
+        height: 1024px;
+    }
+
+    .servicos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .titulo-servicos {
+        font-size: 40px;
+    }
+
+    .descricao-servicos {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+
+    .wrap-servicos {
+        margin: auto;
+    }
+    .descricao-terapia, .descricao-cortes, .descricao-tratamentos {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 23px;
+        font-weight: 400;
+        text-align: center;
+        color: var(--cinza);
+        margin-bottom: 58px;
+        line-height: 30px;
+    }
+}
