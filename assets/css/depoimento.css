@@ -96,4 +96,10 @@
     }
 }
 
+@media screen and (min-width: 400px) and (max-width:401px){
+    body {
+        width: 420px;
+    }
+}
+
 /* Responsivo Desktop */

@@ -3,7 +3,7 @@
 
 .sobre::before {
     content: '';
-    background: #c4fae7;
+    background: #bee2d6;
     height: 242px;
     width: 347px;
     position: absolute;
@@ -41,6 +41,7 @@
 
 /*Responsivo*/
 
+
 @media screen and (min-width: 700px) {
     body {
         width: 768px;
@@ -60,7 +61,7 @@
 
     .sobre::before {
         content: '';
-        background: #c4fae7;
+        background: #bee2d6;
         height: 380px;
         width: 500px;
         position: absolute;

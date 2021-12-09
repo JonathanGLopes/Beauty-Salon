@@ -63,6 +63,7 @@
 
 /* Responsivo */ 
 
+
 @media screen and (min-width: 700px) {
     .titulo-contato {
         text-align: center;
@@ -87,6 +88,12 @@
     .telefone, .endereco, .email {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 420px){
+    body {
+        width: 420px;
     }
 }
 

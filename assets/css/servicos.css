@@ -123,3 +123,12 @@
         line-height: 30px;
     }
 }
+
+@media screen and (min-width: 400px) and (max-width:420px){
+    body {
+        width: 420px;
+    }
+    .servicos {
+        margin-left: 20px;
+    }
+}

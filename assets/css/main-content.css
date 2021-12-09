@@ -149,6 +149,7 @@ body {
 
 /* Responsivo*/ 
 
+
 @media screen and (min-width: 700px) {
     body {
         width: 768px;
@@ -176,6 +177,23 @@ body {
         position: absolute;
         top: 100px;
         left: 180px;
+        z-index: 1;
+        border-radius: 4px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 401px){
+    body {
+        width: 420px;
+    }
+    .pagina-principal::before {
+        content: '';
+        background: #bee2d6;
+        height: 242px;
+        width: 347px;
+        position: absolute;
+        top: 100px;
+        left: 40px;
         z-index: 1;
         border-radius: 4px;
     }
