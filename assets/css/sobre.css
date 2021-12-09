@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
+.sobre::before {
+    content: '';
+    background: #c4fae7;
+    height: 242px;
+    width: 347px;
+    position: absolute;
+    top: 41rem;
+    right: 8rem;
+    z-index: -1;
+    border-radius: 4px;
+}
+
 .imagem-sobre {
    margin-bottom: 32px;
+   z-index: 1;
 }
 
 .titulo-sobre {

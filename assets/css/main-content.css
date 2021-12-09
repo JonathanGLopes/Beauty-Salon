@@ -17,7 +17,7 @@
 
 body {
     font-family: 'icones', sans-serif;
-    width: 414px;
+    width: 375px;
     height: 736px;
 }
 
@@ -54,18 +54,21 @@ body {
 .menu-lateral {
     display: flex;
     flex-direction: column;
-    width: 75vw;
+    width: 0;
     height: 89vh;
     background-color: white;
     margin-left: 25vw;
     position: absolute;
     right: -400px;
     transition: 0.25s;
+    overflow: hidden;
 }
 
 .menu-lateral--ativo {
     right: 0;
     transition: 0.25s;
+    width: 75vw;
+    z-index: 2;
 }
 
 .menu-lateral__link {
@@ -97,21 +100,22 @@ body {
 .imagem-principal {
     margin-bottom: 32px;
     margin-right: 47px;
+    z-index: 1;
 }
 
-/*
-.imagem-principal::before {
+
+.pagina-principal::before {
     content: '';
-    background: #ccf4e6;
-    height: 230px;
-    width: 340px;
+    background: #bee2d6;
+    height: 242px;
+    width: 347px;
     position: absolute;
-    top: -6.8%;
-    left: -20.2%;
-    z-index: 2;
+    top: 100px;
+    left: 20px;
+    z-index: 1;
     border-radius: 4px;
 }
-*/
+
 
 .titulo-principal {
     font-size: 30px;

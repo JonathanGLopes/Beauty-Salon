@@ -4,8 +4,6 @@
 .wrap-servicos {
     padding-bottom: 80px;
     text-align: center;
-    margin-left: 24px;
-    margin-right: 24px;
 }
 
 .titulo-servicos {
@@ -58,8 +56,8 @@
 }
 
 .terapia {
-    width: 372px;
-    height: 372px;
+    width: 373px;
+    height: 373px;
     border-bottom: 4px solid var(--verde-base);
 }
 
