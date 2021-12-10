@@ -39,10 +39,47 @@
     margin-right: 24px;
 }
 
+/* Responsivo Desktop */
+
+@media screen and (min-width:1400px) and (max-width: 1600px){
+    body {
+        width: 1440px;
+        max-width: 1980px;
+        height: 1024px;
+    }
+
+    .sobre {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20rem;
+    }
+
+    .sobre .imagem-sobre {
+        width: 617px;
+    }
+
+    .descricao-sobre {
+        width: 610px;
+    }
+    .sobre::before {
+        content: '';
+        background: #bee2d6;
+        height: 242px;
+        width:500px;
+        position: absolute;
+        top: 52rem;
+        right: 63rem;
+        z-index: -1;
+        border-radius: 4px;
+    }
+
+}
+
+
 /*Responsivo*/
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (max-width:1024px){
     body {
         width: 768px;
         height: 1024px;

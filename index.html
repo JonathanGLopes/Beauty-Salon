@@ -17,29 +17,36 @@
     <header class="cabecalho">
         <h2 class="cabecalho__titulo"> <span class="beauty"> beauty</span>salon<span class="ponto">.</span></h2>
         <button class="cabecalho__botao"><i></i></button>
+        <nav class="menu-lateral">
+            <a href="#" class="menu-lateral__link menu-lateral__link--ativo">Início</a>
+            <a href="#" class="menu-lateral__link menu-lateral__link--ativo">Sobre</a>
+            <a href="#" class="menu-lateral__link menu-lateral__link--ativo">Serviços</a>
+            <a href="#" class="menu-lateral__link menu-lateral__link--ativo">Depoimentos</a>
+            <a href="#" class="menu-lateral__link menu-lateral__link--ativo">Contato</a>
+        </nav>
     </header>
-    <nav class="menu-lateral">
-        <a href="#" class="menu-lateral__link menu-lateral__link--ativo">Início</a>
-        <a href="#" class="menu-lateral__link menu-lateral__link--ativo">Sobre</a>
-        <a href="#" class="menu-lateral__link menu-lateral__link--ativo">Serviços</a>
-        <a href="#" class="menu-lateral__link menu-lateral__link--ativo">Depoimentos</a>
-        <a href="#" class="menu-lateral__link menu-lateral__link--ativo">Contato</a>
-    </nav>
+
 
     <main class="pagina-principal">
-        <img src="./assets/img/principal-mobile.jpg" alt="Salao de beleza" class="imagem-principal">
-        <h2 class="titulo-principal"> Saúde natural para os seus cabelos </h2>
-        <p class="descricao"> Um salão exclusivo em São Paulo. <br>Especializado em tratamentos naturais.</p>
-        <button class="botao-principal"> Agendar um horário </button>
+        <div class="principal-image">
+            <img src="./assets/img/principal-mobile.jpg" alt="Salao de beleza" class="imagem-principal">
+        </div>
+        <div class="principal-texto">
+            <h2 class="titulo-principal"> Saúde natural para os seus cabelos </h2>
+            <p class="descricao"> Um salão exclusivo em São Paulo. <br>Especializado em tratamentos naturais.</p>
+            <button class="botao-principal"> Agendar um horário </button>
+        </div>
     </main>
 
     <section class="sobre">
         <img src="./assets/img/sobre-mobile.jpg" alt="Sobre nós" class="imagem-sobre">
-        <h1 class="titulo-sobre"> Sobre nós</h1>
-        <p class="descricao-sobre">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu quis nisi luctus, id accumsan felis tristique. Proin quis bibendum diam. Sed consequat nisl laoreet eros ultricies pellentesque. Nullam in est porta, pellentesque massa vitae, vehicula risus.
-             <br><br>In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut pretium urna turpis eu dui. Vestibulum id ullamcorper nibh. Donec luctus, nunc finibus elementum suscipit, tortor augue vulputate sapien, vitae feugiat enim augue sed. 
-             <br><br>Quisque id aliquam elit. Suspendisse congue pharetra maximus. Duis rutrum velit a leo euismod dictum. Sed sodales est efficitur arcu tincidunt tincidunt. Curabitur fringilla, risus at feugiat feugiat, nisl nulla tincidunt tellus, elementum elementum lorem nisl eleifend dolor. Nullam eget dui at sem ullamcorper luctus.
-        </p>
+        <div class="texto-sobre">
+            <h1 class="titulo-sobre"> Sobre nós</h1>
+            <p class="descricao-sobre">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu quis nisi luctus, id accumsan felis tristique. Proin quis bibendum diam. Sed consequat nisl laoreet eros ultricies pellentesque. Nullam in est porta, pellentesque massa vitae, vehicula risus.
+                <br><br>In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut pretium urna turpis eu dui. Vestibulum id ullamcorper nibh. Donec luctus, nunc finibus elementum suscipit, tortor augue vulputate sapien, vitae feugiat enim augue sed. 
+                <br><br>Quisque id aliquam elit. Suspendisse congue pharetra maximus. Duis rutrum velit a leo euismod dictum. Sed sodales est efficitur arcu tincidunt tincidunt. Curabitur fringilla, risus at feugiat feugiat, nisl nulla tincidunt tellus, elementum elementum lorem nisl eleifend dolor. Nullam eget dui at sem ullamcorper luctus.
+            </p>
+        </div>
     </section>
 
     <section class="servicos">
@@ -67,45 +74,53 @@
 
     <section class="depoimentos">
         <h1 class="titulo-depoimentos">Depoimentos de quem já passou por aqui</h1>
-        <div class="depoimento1">
-            <p class="descricao-depoimento"> <img src="./assets/img/Aspas.svg" alt="aspas" class="aspas-depo"> Eu sou cliente do Beautysalon há 5 anos e não troco por nada! Certamente meu cabelo mudou muito depois que comecei 
-                a tratar somente com produtos naturais e veganos. São profissionais incríveis e qualificados.</p>
-            <figure class="imagem-depoimento">
-                <img src="./assets/img/img-depoimento.png" alt="Imagem Wanessa">
-                <figcaption class="nome-depoimento">Wanessa Souza</figcaption>
-            </figure>
-        </div>
-        <div class="depoimento2">
-            <p class="descricao-depoimento2"> <img src="./assets/img/Aspas.svg" alt="aspas"> Minha mãe frequenta o salão há anos e me levou um dia para conhecer. Minha experiência foi incrível, eu continuo fazendo o a terapia capilar e isso salvou o meu cabelo. Adoro todos os profissionais do Beautysalon.</p>
-            <figure class="imagem-depoimento2">
-                <img src="./assets/img/img-depoimento2.png" alt="Imagem Luna">
-                <figcaption> Luna Falcão</figcaption>
-            </figure>
+        <div class="wrap-depoimentos">
+            <div class="depoimento1">
+                <p class="descricao-depoimento"> <img src="./assets/img/Aspas.svg" alt="aspas" class="aspas-depo"> Eu sou cliente do Beautysalon há 5 anos e não troco por nada! Certamente meu cabelo mudou muito depois que comecei 
+                    a tratar somente com produtos naturais e veganos. São profissionais incríveis e qualificados.</p>
+                <figure class="imagem-depoimento">
+                    <img src="./assets/img/img-depoimento.png" alt="Imagem Wanessa">
+                    <figcaption class="nome-depoimento">Wanessa Souza</figcaption>
+                </figure>
+            </div>
+            <div class="depoimento2">
+                <p class="descricao-depoimento2"> <img src="./assets/img/Aspas.svg" alt="aspas"> Minha mãe frequenta o salão há anos e me levou um dia para conhecer. Minha experiência foi incrível, eu continuo fazendo o a terapia capilar e isso salvou o meu cabelo. Adoro todos os profissionais do Beautysalon.</p>
+                <figure class="imagem-depoimento2">
+                    <img src="./assets/img/img-depoimento2.png" alt="Imagem Luna">
+                    <figcaption> Luna Falcão</figcaption>
+                </figure>
+            </div>
         </div>
     </section>
 
     <section class="contato">
-        <h1 class="titulo-contato">Entre em contato com a gente!</h1>
-        <p class="descricao-contato">Entre em contato com a Beautysalon, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.</p>
-        <button class="botao-contato"> <img src="./assets/img/whats.png" alt="ícone whatsapp" class="img-whatsapp"> Entrar em contato</button>
-        <div class="telefone">
-            <img src="./assets/img/img-telefone.svg" alt="" class="img-telefone">
-            <span>11 99845-6754</span>
+        <div class="texto-contato">
+            <h1 class="titulo-contato">Entre em contato com a gente!</h1>
+            <p class="descricao-contato">Entre em contato com a Beautysalon, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.</p>
+            <button class="botao-contato"> <img src="./assets/img/whats.png" alt="ícone whatsapp" class="img-whatsapp"> Entrar em contato</button>
         </div>
-        <div class="endereco">
-            <img src="./assets/img/img-endereco.svg" alt="" class="img-endereco">
-            <span>R.Amauri Souza. 346</span>
-        </div>
-        <div class="email">
-            <img src="./assets/img/img-email.svg" alt="" class="img-email">
-            <span>contato@beautysalon.com</span>
+        <div class="wrap-contatos">
+            <div class="telefone">
+                <img src="./assets/img/img-telefone.svg" alt="" class="img-telefone">
+                <span>11 99845-6754</span>
+            </div>
+            <div class="endereco">
+                <img src="./assets/img/img-endereco.svg" alt="" class="img-endereco">
+                <span>R.Amauri Souza. 346</span>
+            </div>
+            <div class="email">
+                <img src="./assets/img/img-email.svg" alt="" class="img-email">
+                <span>contato@beautysalon.com</span>
+            </div>
         </div>
     </section>
 
     <section class="social-media">
-        <h1 class="titulo-social"><span class="beauty"> beauty</span>salon<span class="ponto">.</span></h1>
-        <span class="direitos-social">©2021 Beautysalon.</span> <br><br>
-        <span class="direitos-social">Todos os direitos reservados.</span>
+        <div class="wrap-social">
+            <h1 class="titulo-social"><span class="beauty"> beauty</span>salon<span class="ponto">.</span></h1>
+            <span class="direitos-social">©2021 Beautysalon.</span> <br><br>
+            <span class="direitos-social">Todos os direitos reservados.</span>
+        </div>
         <div class="social-img">
             <a href="# "><img src="./assets/img/instagram 1.svg" alt="ícone do instagram" class="img-social"></a> 
             <a href="#"><img src="./assets/img/facebook 1.svg" alt="ícone do facebook" class="img-social"></a> 

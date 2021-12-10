@@ -31,11 +31,35 @@
     margin-right: 20px;
 }
 
+/* Responsivo Desktop */
+
+@media screen and (min-width:1400px) and (max-width: 1980px){
+    body {
+        width: 1440px;
+        max-width: 1980px;
+        height: 1024px;
+    }
+
+    .titulo-social {
+        font-size: 30px;
+    }
+    
+    .social-media {
+        display: flex;
+        justify-content: space-around;
+        min-width: 1440px;
+        max-width: 1980px;
+    }
+
+}
+
 /* Responsivo */
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (max-width:1024px){
     .social-media {
+        width: 700px;
+        padding: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -48,14 +72,5 @@
 
     .direitos-social {
         font-size: 20px;
-    }
-}
-
-/* Responsivo Desktop*/
-
-
-@media screen and (min-width: 410px) and (max-width:413 px){
-    body {
-        width: 420px;
     }
 }
