@@ -147,11 +147,16 @@
 
     .wrap-servicos {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        margin: 0;
     }
 
     .terapia, .cortes, .tratamento {
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .descricao-terapia, .descricao-cortes, .descricao-tratamentos {
+        font-size: 17px;
     }
 
 }

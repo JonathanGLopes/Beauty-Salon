@@ -63,8 +63,8 @@
     .social-media {
         display: flex;
         justify-content: space-around;
-        min-width: 1440px;
-        max-width: 1980px;
+        flex-direction: row;
+        width: 100%;
     }
 
 }
