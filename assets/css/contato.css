@@ -61,32 +61,10 @@
     margin-right: 20px;
 }
 
-/* Responsivo Desktop */
-
-@media screen and (min-width:1400px) and (max-width: 1980px){
-    body {
-        width: 1440px;
-        max-width: 1980px;
-        height: 1024px;
-    }
-    .contato {
-        display: flex;
-        justify-content: space-around;
-    }
-    .descricao-contato {
-        width: 364px;
-    }
-    .botao-contato:hover {
-        background-color: #3a9e7d;
-    }
-
-}
-
-
 /* Responsivo */ 
 
 
-@media screen and (min-width: 700px) and (max-width:1024px){
+@media screen and (min-width: 700px){
     .titulo-contato {
         text-align: center;
         width: 500px;
@@ -112,4 +90,28 @@
         justify-content: center;
     }
 }
-/* Responsivo Desktop */ 
+@media screen and (min-width:1400px){
+    body {
+        width: 1440px;
+        max-width: 1980px;
+        height: 1024px;
+    }
+    .contato {
+        display: flex;
+        justify-content: space-around;
+    }
+    .descricao-contato {
+        width: 364px;
+    }
+    .botao-contato:hover {
+        background-color: #3a9e7d;
+    }
+
+}
+@media screen and (min-width: 1601px){
+    body {
+        width: 1620px;
+        max-width: 1980px;
+        height: 1024px;
+    }
+}

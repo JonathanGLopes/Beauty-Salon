@@ -84,45 +84,9 @@
 .tratamento .imagem-tratamentos {
     width: 80px;
 }
-
-/* Responsivo Desktop */
-
-@media screen and (min-width:1400px) and (max-width: 1980px){
-    body {
-        width: 1440px;
-        max-width: 1980px;
-        height: 1024px;
-    }
-    .servicos {
-        margin-bottom: 20rem;
-    }
-    .titulo-servicos {
-        text-align: center;
-        margin-bottom: 2rem;
-    }
-    .descricao-servicos {
-        font-size: 19px;
-        width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        margin-bottom: 5rem;
-    }
-
-    .wrap-servicos {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .terapia, .cortes, .tratamento {
-        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
-    }
-
-}
-
 /* Responsivo*/
 
-@media screen and (min-width: 700px) and (max-width:1024px) {
+@media screen and (min-width: 700px){
     body {
         width: 768px;
         height: 1024px;
@@ -157,4 +121,44 @@
         margin-bottom: 58px;
         line-height: 30px;
     }
+}
+
+@media screen and (min-width:1400px){
+    body {
+        width: 1440px;
+        max-width: 1980px;
+        height: 1024px;
+    }
+    .servicos {
+        margin-bottom: 20rem;
+    }
+    .titulo-servicos {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .descricao-servicos {
+        font-size: 19px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    .wrap-servicos {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .terapia, .cortes, .tratamento {
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+    }
+
+}
+@media screen and (min-width: 1601px){
+    body {
+        width: 1620px;
+        max-width: 1980px;
+        height: 1024px;
+    } 
 }
